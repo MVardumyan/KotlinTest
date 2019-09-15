@@ -5,7 +5,7 @@ fun main() {
     println(solution(arr))
 }
 
-fun solution(A: IntArray): Int {
+private fun solution(A: IntArray): Int {
     if (A.isEmpty()) return 1
 
     val N = A.size + 1
